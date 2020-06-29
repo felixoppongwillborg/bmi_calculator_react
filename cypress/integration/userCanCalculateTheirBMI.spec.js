@@ -4,6 +4,6 @@ describe('BMI Calculator', () => {
         cy.get('input#weight').type(90);
         cy.get('input#height').type(190);
         cy.get('button#calculate').click();
-        cy.get('p#bmi-message').should('contain', 'you are Normal with a BMI of 24.93')
+        cy.get('p#bmi-message').should('contain', 'You are Normal with a BMI of 24.93')
     })
 })
