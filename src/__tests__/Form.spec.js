@@ -27,7 +27,7 @@ describe("Form", () => {
         wrapper.find("#weight").simulate("change");
         expect(handleChange).toHaveBeenCalled();
         wrapper.find("#height").simulate("change");
-        expect(handleChange).toHaveBennCalled();
+        expect(handleChange).toHaveBeenCalled();
     });
 
     it("on submit the onSubmitHandler is being called", () => {
